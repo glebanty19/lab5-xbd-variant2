@@ -1,0 +1,47 @@
+{
+  "split": "test",
+  "tile_size_native_px": 768,
+  "overlap_native_px": 256,
+  "evaluation_size": 512,
+  "full_frame": {
+    "iou": {
+      "background": 0.9595111325506133,
+      "no-damage": 0.5403358158782042,
+      "minor-damage": 0.12766038604452337,
+      "major-damage": 0.3415453309090555,
+      "destroyed": 0.2012456836737987
+    },
+    "dice": {
+      "background": 0.9793372608214356,
+      "no-damage": 0.7015818372958342,
+      "minor-damage": 0.2264163707875129,
+      "major-damage": 0.5091819456859026,
+      "destroyed": 0.3350616554280955
+    },
+    "miou": 0.434059669811239,
+    "pixel_accuracy": 0.9543178740871455,
+    "boundary_f1": 0.5447178406658707,
+    "images": 280
+  },
+  "tiled_overlap": {
+    "iou": {
+      "background": 0.9594358611063997,
+      "no-damage": 0.5154850635747252,
+      "minor-damage": 0.1319836120066914,
+      "major-damage": 0.34276595550941985,
+      "destroyed": 0.14561920640213405
+    },
+    "dice": {
+      "background": 0.9792980522104481,
+      "no-damage": 0.6802905234299035,
+      "minor-damage": 0.23318996954862492,
+      "major-damage": 0.5105371551952715,
+      "destroyed": 0.25421921278617066
+    },
+    "miou": 0.4190579397198741,
+    "pixel_accuracy": 0.9544438113658013,
+    "boundary_f1": 0.5579449532534522,
+    "images": 280
+  },
+  "note": "Tiles are predicted at native scale, blended by raised-cosine weights, then resized to the model evaluation grid. Scale differs from full-frame resize."
+}

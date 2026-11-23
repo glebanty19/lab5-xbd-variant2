@@ -1,0 +1,28 @@
+{
+  "iou": {
+    "background": 0.9595167575227729,
+    "no-damage": 0.5403537008025645,
+    "minor-damage": 0.12771069759734444,
+    "major-damage": 0.3415123554576369,
+    "destroyed": 0.20118719261964405
+  },
+  "dice": {
+    "background": 0.9793401907272249,
+    "no-damage": 0.7015969131258959,
+    "minor-damage": 0.22649549723956644,
+    "major-damage": 0.5091453001804596,
+    "destroyed": 0.3349805823035444
+  },
+  "miou": 0.43405614079999255,
+  "pixel_accuracy": 0.9543228079935171,
+  "boundary_f1": 0.5447880452774514,
+  "split": "test",
+  "images": 280,
+  "classes": [
+    "background",
+    "no-damage",
+    "minor-damage",
+    "major-damage",
+    "destroyed"
+  ]
+}
